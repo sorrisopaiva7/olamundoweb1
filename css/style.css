@@ -1,0 +1,50 @@
+/*seletor universal*/
+*{
+  padding: 0; /*espaçamento interno*/
+  margin: 0; /*espaçamento externo*/
+}
+
+/*seletor da tag*/
+div{
+  background-color: aqua; /*cor de fundo*/
+  height: 150px; /*altura*/
+  margin: 5px; /*espaçamento externo*/
+}
+
+/*seletor da class*/
+.pricipal{
+  background-color: brown; /*cor do plano de fundo*/
+}
+
+body{
+  background-color: bisque; /*cor do plano de fundo da página*/
+}
+
+/*seletor da tag*/
+p{
+  color: darkslategrey; /*cor da fonte*/
+} 
+
+/*seletor da class*/
+.texto{
+  font-size: 14px; /*tamanho da font*/
+}
+
+/*seletor da class*/
+.destque{
+  font-size: 18px; /*tamanho da fonte*/
+  text-align: center; /*alinhamento do texto*/
+  color: crimson; /*cor da fonte*/
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+
+/*seletor do id*/
+#texto-css{
+  font-size: 22px; /*tamanho da fonte*/
+  color: darkblue; /*corda fonte*/
+  background-color: black; /* cor do plano de fundo*/
+  font-style: italic; /*colocando em itálico*/
+  font-weight: 900; /*colocando em negrito*/
+  font-family: 'Courier New', Courier, monospace; /*trocando a fonte*/
+}
